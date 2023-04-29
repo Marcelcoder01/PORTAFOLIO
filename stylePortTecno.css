@@ -13,6 +13,7 @@
 
 nav{
     display:flex;
+    color:white;
     background-color: black;
     height:80px;
     justify-content: center;
@@ -58,66 +59,36 @@ body{
     background-color: white;
 }
 
-.imagen1 div{
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.imagen1{
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.imagen1 aside{
-    margin-top: -50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.imagen1 aside h1, p{ 
-    margin-top: 20px;
-}
-
-.socialimg{
-    display: flex;
+.frase1{
+    display:flex;
     justify-content: center;
+    margin-top:30px;
+}
+
+.frase1 div h1{
+    letter-spacing: .2rem;
+}
+.tecnologias{
+    display:flex;
+    width:100%;
+    height:150px;
+    justify-content: space-evenly;
     margin-top: 50px;
+  
 }
 
-.socialimg img{
-    width:55px;
-    height:50px;
-    margin-left: 50px;
-    margin-right: 50px;
+.tecnologias img{
+    height:100%;
+    margin-left: -100px;
+    margin-right:-100px;
+    transition: all 0.5s linear;
 
 }
 
-.instalogo{
-    transition: transform 0.3s linear;
+.tecnologias img:hover{
+   transform: scalex(1.3) scaley(1.3);
+    
 }
-.instalogo:hover{
-    transform: rotate(180deg)
-}
-
-.fblogo{
-    transition: transform 1s linear;
-}
-
-.fblogo:hover{
-    background-color: azure;
-    transform: scaleX(1.2);
-}
-
-.twlogo{
-    transition: transform 0.4s linear;
-}
-
-.twlogo:hover{
-    transform: rotate(360deg)
-}
-
 .footer{
     display:flex;
     color:white;
@@ -127,4 +98,16 @@ body{
     justify-content: center;
     margin-top: 50px;
     align-items: center;
+}
+
+.explicaciones{
+    margin-top: 60px;
+}
+
+.explicaciones div{
+    margin: 20px;
+}
+
+.explicaciones div h3{
+        text-decoration:underline;
 }
